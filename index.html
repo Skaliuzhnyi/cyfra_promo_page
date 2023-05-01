@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Сервісний центр Цифра - Ремонт телефонів, ноутбуків та телевізорів">
+    <meta name="theme-color" content="#FFCF21" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Сервісний центр Цифра - Ремонт телефонів, ноутбуків та телевізорів</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+
+
+<header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a class="header__logo" href="index.html">
+        <img class="logo__img" src="img/logo.png" alt="логотип компанії" />
+      </a>
+
+      <nav class="nav">
+        <a class="nav__phone" href="tel:+380958880422">(095) 888-04-22</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+
+<main class="main page__main">
+  <section class="hello">
+  <div class="container">
+    <h1 class="hello__title">Зламався телевізор?</h1>
+    <h2 class="hello__description">
+      Не сумуй! Неси швиденько в Цифру на безкоштовну діагностику!
+    </h2>
+    <a class="hello__button btn__color" href="https://cyfra.org.ua/">Перейти на сайт</a>
+  </div>
+</section>
+
+  <section class="request">
+  <div class="container">
+    <h3 class="request__title">Отримати швидку консультацію</h3>
+    <form
+      class="request__form"
+      action="https://cyfraservicecentre.gincore.net/widget/request"
+      method="post"
+    >
+    <div class="request__form-top">
+      <input
+        class="request__input-phone"
+        type="text"
+        name="phone"
+        placeholder="Телефон"
+        required
+      />
+      <input
+        class="request__input-name"
+        type="text"
+        name="fullName"
+        placeholder="Ім'я"
+        required
+      />
+      <input
+        class="request__input-type"
+        type="hidden"
+        name="category_id"
+        placeholder="ID категории устройства"
+      />
+    </div>
+      <textarea
+        class="request__input-comment"
+        name="comment"
+        placeholder="Коментар"
+        required
+      ></textarea
+      >
+      <input class="request__input-btn btn__color" type="submit" value="Залишити заявку" />
+    </form>
+  </div>
+</section>
+
+  <div class="fab js-fab">
+  <button class="fab__button fab__button--primary js-toggle">
+    <span class="fab__button--primary__icon">
+      <svg
+        width="18"
+        height="20"
+        viewBox="0 0 18 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M3.26263 0H14.5434C15.4406 0 16.2563 0.361247 16.8481 0.945231C17.4399 1.52922 17.806 2.33407 17.806 3.2194V10.3994C17.806 11.2847 17.4399 12.0896 16.8481 12.6736C16.2563 13.2576 15.4406 13.6188 14.5434 13.6188H8.90205L3.9474 17.8209C3.71788 18.0155 3.37075 17.9893 3.17348 17.761C3.07674 17.6487 3.03311 17.5102 3.04259 17.3735L3.30626 13.6169H3.26263C2.36541 13.6169 1.54975 13.2557 0.957924 12.6717C0.366098 12.0896 0 11.2847 0 10.3994V3.2194C0 2.33407 0.366098 1.52922 0.957924 0.945231C1.54785 0.361247 2.36351 0 3.26263 0ZM19.407 5.23714C20.0462 5.35881 20.6191 5.66952 21.0629 6.1075C21.6415 6.67839 22.0019 7.46639 22.0019 8.33488V15.5149C22.0019 16.3834 21.6434 17.1714 21.0629 17.7423C20.4844 18.3132 19.6858 18.6688 18.8057 18.6688H18.6899L18.9593 22.4946C18.9669 22.6144 18.9308 22.738 18.8455 22.8353C18.6729 23.0356 18.3675 23.058 18.1664 22.8877L13.1928 18.5452H6.64097L9.86756 15.3071H16.7039C18.1949 15.3071 19.4165 14.1036 19.4165 12.6305V5.44865C19.4146 5.37752 19.4127 5.3064 19.407 5.23714ZM4.87118 8.17578C4.56768 8.17578 4.32109 7.93245 4.32109 7.63298C4.32109 7.3335 4.56768 7.09017 4.87118 7.09017H10.6282C10.9317 7.09017 11.1783 7.3335 11.1783 7.63298C11.1783 7.93245 10.9317 8.17578 10.6282 8.17578H4.87118ZM4.87118 5.48796C4.56768 5.48796 4.32109 5.24463 4.32109 4.94515C4.32109 4.64567 4.56768 4.40234 4.87118 4.40234H13.0316C13.3351 4.40234 13.5817 4.64567 13.5817 4.94515C13.5817 5.24463 13.3351 5.48796 13.0316 5.48796H4.87118ZM14.5415 1.08561H3.26263C2.66891 1.08561 2.1283 1.3252 1.73564 1.71265C1.34299 2.1001 1.10019 2.63167 1.10019 3.2194V10.3994C1.10019 10.9853 1.34299 11.5187 1.73564 11.9062C2.1283 12.2936 2.66891 12.5332 3.26263 12.5332H3.89619V12.5351L3.93223 12.5369C4.23383 12.5575 4.46336 12.8158 4.44249 13.1134L4.22814 16.1569L8.31402 12.6904C8.41266 12.5931 8.54923 12.5332 8.70098 12.5332H14.5415C15.1352 12.5332 15.6758 12.2936 16.0685 11.9062C16.4611 11.5187 16.7039 10.9853 16.7039 10.3994V3.2194C16.7039 2.63355 16.4611 2.1001 16.0685 1.71265C15.6777 1.3252 15.1371 1.08561 14.5415 1.08561Z"
+          fill="white"
+        />
+      </svg>
+    </span>
+    <span class="fab__button--primary__plus"></span>
+    <span class="sr-only">Відкрити перелік месенжерів</span>
+  </button>
+  <a class="fab__button fab__button--secondary" href="https://t.me/+380958880422" data-label="Telegram">
+    <svg
+      data-name="Layer 1"
+      id="Layer_1"
+      viewBox="0 0 512 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title />
+      <path
+        d="M256,0C114.615,0,0,114.615,0,256S114.615,512,256,512,512,397.385,512,256,397.385,0,256,0ZM389.059,161.936,343.591,379a16.007,16.007,0,0,1-25.177,9.593l-66.136-48.861-40.068,37.8a5.429,5.429,0,0,1-7.74-.294l-.861-.946,6.962-67.375L336.055,194.266a3.358,3.358,0,0,0-4.061-5.317L171.515,290.519,102.4,267.307a9.393,9.393,0,0,1-.32-17.694L372.5,147.744A12.441,12.441,0,0,1,389.059,161.936Z"
+      />
+    </svg>
+    <span class="sr-only">Перейти до месенжеру Телеграм</span>
+  </a>
+  <a class="fab__button fab__button--secondary" href="viber://add?number=380958880422" data-label="Viber">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="32"
+      height="32"
+      viewBox="0 0 32 32"
+    >
+      <path
+        d="M15.198 0.005c-2.568 0.031-8.089 0.453-11.177 3.286-2.297 2.276-3.099 5.641-3.193 9.802-0.078 4.146-0.172 11.932 7.333 14.052v3.229c0 0-0.047 1.292 0.807 1.557 1.052 0.333 1.651-0.661 2.651-1.729l1.865-2.109c5.135 0.427 9.068-0.557 9.521-0.703 1.042-0.333 6.911-1.083 7.87-8.87 0.984-8.042-0.479-13.109-3.12-15.401h-0.016c-0.797-0.734-4-3.068-11.156-3.094 0 0-0.531-0.036-1.385-0.021zM15.286 2.266c0.729-0.005 1.172 0.026 1.172 0.026 6.057 0.016 8.948 1.839 9.63 2.453 2.224 1.906 3.37 6.474 2.531 13.188-0.797 6.51-5.557 6.922-6.438 7.203-0.375 0.12-3.839 0.974-8.203 0.693 0 0-3.25 3.922-4.266 4.932-0.161 0.177-0.349 0.229-0.469 0.203-0.172-0.042-0.224-0.255-0.214-0.547l0.031-5.359c-6.365-1.76-5.99-8.401-5.922-11.87 0.078-3.469 0.729-6.307 2.667-8.229 2.609-2.359 7.297-2.677 9.479-2.693zM15.766 5.734c-0.219-0.005-0.401 0.177-0.401 0.396 0 0.224 0.182 0.401 0.401 0.401 2.005-0.036 3.938 0.724 5.375 2.12 1.453 1.411 2.161 3.307 2.188 5.786 0 0.219 0.177 0.401 0.401 0.401v-0.016c0.219 0 0.401-0.177 0.401-0.396 0.099-2.359-0.776-4.651-2.417-6.349-1.583-1.547-3.589-2.344-5.948-2.344zM10.495 6.651c-0.281-0.042-0.573 0.016-0.818 0.161h-0.021c-0.542 0.318-1.047 0.719-1.526 1.255-0.365 0.422-0.563 0.849-0.615 1.26-0.031 0.245-0.010 0.49 0.063 0.724l0.026 0.016c0.411 1.208 0.948 2.37 1.604 3.464 0.844 1.536 1.885 2.958 3.094 4.229l0.036 0.052 0.057 0.042 0.036 0.042 0.042 0.036c1.276 1.214 2.698 2.255 4.24 3.109 1.76 0.958 2.828 1.411 3.469 1.599v0.010c0.188 0.057 0.359 0.083 0.531 0.083 0.547-0.042 1.063-0.26 1.469-0.63 0.521-0.469 0.932-0.984 1.24-1.531v-0.010c0.307-0.578 0.203-1.125-0.24-1.495-0.885-0.776-1.849-1.464-2.865-2.057-0.682-0.37-1.375-0.146-1.656 0.229l-0.599 0.755c-0.307 0.375-0.865 0.323-0.865 0.323l-0.016 0.010c-4.161-1.063-5.271-5.276-5.271-5.276s-0.052-0.573 0.333-0.865l0.75-0.604c0.359-0.292 0.609-0.984 0.224-1.667-0.589-1.021-1.276-1.979-2.052-2.865-0.167-0.208-0.406-0.349-0.672-0.401zM16.458 7.839c-0.531 0-0.531 0.802 0.005 0.802 1.333 0.021 2.604 0.573 3.531 1.531 0.844 0.932 1.281 2.172 1.198 3.427 0.005 0.219 0.182 0.396 0.401 0.396l0.016 0.021c0.219 0 0.401-0.182 0.401-0.401 0.036-1.589-0.458-2.922-1.427-3.99-0.974-1.068-2.333-1.667-4.068-1.786-0.021 0-0.036 0-0.057 0zM17.115 9.995c-0.547-0.016-0.568 0.802-0.026 0.818 1.318 0.068 1.958 0.734 2.042 2.104 0.005 0.219 0.182 0.391 0.396 0.391h0.016c0.224-0.010 0.401-0.203 0.385-0.427-0.094-1.786-1.068-2.792-2.797-2.885-0.005 0-0.010 0-0.016 0z"
+      />
+    </svg>
+    <span class="sr-only">Перейти до месенжеру Вайбер</span>
+  </a>
+</div>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <a class="footer__logo" href="index.html">
+        <img class="logo__img" src="img/logo-color.png" alt="логотип компанії" width="162" height="40"/>
+      </a>
+
+      <nav class="nav">
+        <ul class="social__list">
+  <li class="social__item">
+    <a class="social__link" href="https://www.facebook.com/cyfra.service1" target="_blank">
+      <img src="img/icons/facebook-color.png" alt="facebook" />
+    </a>
+  </li>
+  <li class="social__item">
+    <a class="social__link" href="https://instagram.com/cyfra_service?igshid=YmMyMTA2M2Y=" target="_blank">
+      <img src="img/icons/intagram-color.png" alt="instagram" />
+    </a>
+  </li>
+</ul>
+
+        </nav>
+    </div>
+
+    <div class="footer__bottom">
+      <address class="footer__bottom-address">
+        <a class="address _link__hover" href="https://goo.gl/maps/GnCh1qwFvCKJGMm58">м. Київ, вул. Княжий Затон 11</a>
+      </address>
+      <div class="footer__bottom-rights">
+        <div class="rights">
+          2014 © CYFRA, All Rights Reserved
+        </div>
+        <div class="footer__copyright-block">
+          <span class="footer__copyright-span" data-lang="copyright">Розробка сайту</span>
+          <a class="footer__copyright-link _link__hover" href="#">s_kaliuzhnyi</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EB36ZF8T17"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_JeppxGTcMz6WXuDDVol5FQ8fMFxAjzs&callback=initMap"
+    defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/index.js"></script>
+  </body>
+
+  </html>
