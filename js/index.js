@@ -59,7 +59,7 @@ for (let elm of elements) {
 
 $(document).ready(function () {
   //E-mail Ajax Send
-  $('.request__form').submit(function () {
+  $('.request__input-btn').submit(function () {
     //Change
     var th = $(this);
     $.ajax({
