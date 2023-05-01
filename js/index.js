@@ -64,7 +64,7 @@ $(document).ready(function () {
     var th = $(this);
     $.ajax({
       type: 'POST',
-      url: 'mail.php', //Change
+      url: 'https://cyfraservicecentre.gincore.net/widget/request', //Change
       data: th.serialize(),
     }).done(function () {
       alert('Thank you!');
