@@ -57,14 +57,16 @@ for (let elm of elements) {
   observer.observe(elm);
 }
 
+// form
+
 $(document).ready(function () {
   //E-mail Ajax Send
-  $('.request__input-btn').submit(function () {
+  $('.request__form').submit(function () {
     //Change
     var th = $(this);
     $.ajax({
       type: 'POST',
-      url: 'https://cyfraservicecentre.gincore.net/widget/request', //Change
+      url: 'mail.php', //Change
       data: th.serialize(),
     }).done(function () {
       alert('Thank you!');
